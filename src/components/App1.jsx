@@ -8,8 +8,8 @@ export default function App1() {
   const b = 20;
 
   return (
-    <div className="app1-container">
-      <h1 className="app1-title">This is App1 Component</h1>
+    <div className="App1-container">
+      <h1 className="App1-title">This is App1 Component</h1>
 
       <div className="component-wrapper">
         <Product name="Laptop" price={45000} />
