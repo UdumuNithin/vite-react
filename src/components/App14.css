@@ -1,0 +1,61 @@
+/* App14.css */
+
+.App14-Container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #555;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3a86ff;
+  box-shadow: 0 0 10px #a8c8ff;
+}
+
+ol {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.07);
+  line-height: 1.4;
+}
+
+li strong {
+  font-size: 1.1rem;
+  color: #2a2a2a;
+}
+
+li br {
+  margin-bottom: 5px;
+}

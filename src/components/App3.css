@@ -1,0 +1,40 @@
+/* App3.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Optional: if you want to style the Box component div specifically */
+.Box {
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: #e7f1ff;
+  font-weight: bold;
+  color: #0056b3;
+}

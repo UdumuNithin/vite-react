@@ -1,0 +1,18 @@
+.box-container {
+  margin: 20px auto;
+  padding: 25px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #f7faff;
+  border: 2px solid #d0e2ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.box-container:hover {
+  transform: scale(1.02);
+  border-color: #a4c8ff;
+}

@@ -1,0 +1,52 @@
+/* App2.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.App-Product-Container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* If you want to style Product component container here, 
+   assuming Product has a root div with class "Product-Card" */
+
+.Product-Card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 180px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.Product-Card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.Product-Card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+.Product-Card p {
+  margin: 0;
+  font-weight: bold;
+color: #333;
+}

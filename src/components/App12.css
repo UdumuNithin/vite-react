@@ -1,0 +1,53 @@
+/* App12.css */
+
+.App-Container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Counter-Box {
+  background: white;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #555;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #333;
+}
+
+button {
+  background-color: #3a86ff;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #265fd3;
+}

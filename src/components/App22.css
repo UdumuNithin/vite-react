@@ -1,0 +1,27 @@
+/* App22.css */
+
+.card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  max-width: 320px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(118, 75, 162, 0.6);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1.2px;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 2px;
+}

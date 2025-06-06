@@ -1,0 +1,20 @@
+.Box2 {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 20px;
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #64b5f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Box2:hover {
+  transform: scale(1.05);
+  background-color: #bbdefb;
+  cursor: pointer;
+}

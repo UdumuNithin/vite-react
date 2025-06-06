@@ -1,0 +1,23 @@
+/* Calc.css */
+
+.calc-container {
+  background-color: #1abc9c;
+  color: #ffffff;
+  padding: 20px 30px;
+  margin: 30px auto;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+
+.calc-container:hover {
+  transform: translateY(-5px);
+  background-color: #16a085;
+}

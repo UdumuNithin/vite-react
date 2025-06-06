@@ -1,0 +1,84 @@
+/* Register.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.register-box {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.register-box h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #333;
+}
+
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="password"],
+.register-box input[type="tel"],
+.register-box input::placeholder {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.register-box input:focus {
+  border-color: #2ebf91;
+  outline: none;
+}
+
+.register-box input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2ebf91;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-box button:hover {
+  background-color: #24a17c;
+}
+
+.register-box .error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-box .link {
+  color: #2e86de;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.register-box .link:hover {
+  color: #1e6bb8;
+}

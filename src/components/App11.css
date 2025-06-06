@@ -1,0 +1,76 @@
+/* App11.css */
+
+.App-Container {
+  position: relative;
+  max-width: 500px;
+  height: 300px;
+  margin: 40px auto;
+  padding: 60px 20px 20px;
+  background: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.Number-Input {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border: 2px solid #3a86ff;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.Number-Input:focus {
+  border-color: #265fd3;
+}
+
+.Corner {
+  position: absolute;
+  width: 45%;
+  padding: 15px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.Corner h3 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #3a86ff;
+  font-size: 1.2rem;
+}
+
+.Corner p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  word-wrap: break-word;
+}
+
+/* Positioning corners */
+.Top-Left {
+  top: 80px;
+  left: 20px;
+}
+
+.Top-Right {
+  top: 80px;
+  right: 20px;
+}
+
+.Bottom-Left {
+  bottom: 20px;
+  left: 20px;
+}
+
+.Bottom-Right {
+  bottom: 20px;
+  right: 20px;
+}

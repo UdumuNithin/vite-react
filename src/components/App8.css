@@ -1,0 +1,46 @@
+/* App8.css */
+
+.App-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+  font-family: Arial, sans-serif;
+}
+
+.Counter-Box {
+  background-color: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 220px;
+}
+
+.Counter-Number {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+.Counter-Button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.Counter-Button:hover {
+  background-color: #0056b3;
+}
+
+.Counter-Button:active {
+  transform: scale(0.95);
+}
